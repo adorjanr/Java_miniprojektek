@@ -1,7 +1,7 @@
 public class FolyoSzamla extends RegularisSzamla {
   private int tranzakciokSzama;
-  private final int INGYENES_TRANZ_SZAMA = 3;
-  private final double TRANZAKCIO_ARA = 2.0;
+  private final static int INGYENES_TRANZ_SZAMA = 3;
+  private final static double TRANZAKCIO_ARA = 2.0;
   
   public FolyoSzamla(String tulNev) {
     super(tulNev);

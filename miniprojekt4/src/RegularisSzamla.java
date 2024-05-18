@@ -4,7 +4,7 @@ public class RegularisSzamla implements Bankszamla {
   protected double egyenleg;
   protected String tulNev;
   protected int szamlaSzam;
-  private int kovSzamlaSzam = 1;
+  private static int kovSzamlaSzam = 1;
   protected ArrayList<Tranzakcio> tranzLista = new ArrayList<>();
 
   public RegularisSzamla(String tulNev) {
